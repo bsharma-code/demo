@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS junk files (optional)
+.DS_Store
+
+# Alembic migration cache
+alembic/versions/*.pyc
+
+# SQLite DB file (if local)
+*.sqlite3
+*.db
+
+# Logs (optional)
+*.log
+
+# Pytest cache
+.pytest_cache/
