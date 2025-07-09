@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,32 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS junk files (optional)
+.DS_Store
+
+# Alembic migration cache
+alembic/versions/*.pyc
+
+# SQLite DB file (if local)
+*.sqlite3
+*.db
+
+# Logs (optional)
+*.log
+
+# Pytest cache
+.pytest_cache/
+>>>>>>> 85307a59523754d7829aa4462d4f45bc2a81d18d
